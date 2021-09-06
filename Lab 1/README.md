@@ -96,7 +96,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
+\*\***Video for the staging: https://drive.google.com/file/d/1rBvxijf2kkDmpdZAEgYdhpLRycr5Po86/view?usp=sharing**\*\*
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
