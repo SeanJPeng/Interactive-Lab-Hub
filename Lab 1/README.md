@@ -66,7 +66,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
+\*\***Tinkerbelle is really easy to set up and really easy to use. I am using a windows machine, everything just went smoothly with me. The only thing is taht I reliazed that the screen of my iPhone is not bright enough. So I used my iPad instead.**\*\*
 
 
 ## Part D. Wizard the device
