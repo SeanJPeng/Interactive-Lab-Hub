@@ -80,7 +80,7 @@ https://user-images.githubusercontent.com/39228801/132248336-5adcc645-ba3a-4bc5-
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-\*\***Show the follow-up work here.**\*\*
+\*\***The setting is basically in the closet. The screen light of my phone is not bright enough. So I changed the device from phone to my iPad. And when I am filming, I closed the closet door as much as I can. So that the different color would show clearly.**\*\*
 
 
 ## Part E. Costume the device
@@ -91,7 +91,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+\*\***The device should be as neglectable as possbile. It should be small and only show the light the light during the necessary time.**\*\*
 
 
 ## Part F. Record
