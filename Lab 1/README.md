@@ -45,7 +45,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***I got the feedback mentioned that this "weather report" dont have to be just light, there could be correspoding sounds or vocie that help the person know the weather better.**\*\*
+\*\***I got the feedback mentioned that this "weather report" don't have to be just light, there could be correspoding sounds or vocie that help the person know the weather better.**\*\*
 
 
 ## Part B. Act out the Interaction
