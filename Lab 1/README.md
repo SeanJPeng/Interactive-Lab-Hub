@@ -35,6 +35,8 @@ To stage the interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
 
+At home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla.
+
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
 _Activity:_ What is happening between the actors?
