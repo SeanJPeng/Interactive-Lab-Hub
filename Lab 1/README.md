@@ -33,10 +33,11 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***The Setting is home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla when its raining.<br>
-The players are everyone in the home is involved in the interction. Everyone could benefit from this device.<br>
-The activity is when the players are picking cloths to wear, the light in the closet will flash different colors of lights to show today's weather. For example, warm yellow for sunny day, blue for rainy day, red for severe weather. And when its rainy outside, and you forget to bring unberalla when leaving, the light in the front door will falsh blue light to show you forget the unberalla.<br>
-The goal for each player is to dress properly according to the werather everyday.**\*\*
+\*\***<br>
+The Setting is home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla when its raining.<br><br>
+The players are everyone in the home is involved in the interction. Everyone could benefit from this device.<br><br>
+The activity is when the players are picking cloths to wear, the light in the closet will flash different colors of lights to show today's weather. For example, warm yellow for sunny day, blue for rainy day, red for severe weather. And when its rainy outside, and you forget to bring unberalla when leaving, the light in the front door will falsh blue light to show you forget the unberalla.<br><br>
+The goal for each player is to dress properly according to the werather everyday.<br>**\*\*
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
