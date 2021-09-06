@@ -96,7 +96,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-\*\***Video for the staging:https://youtu.be/4007e2n1lxQ**\*\*
+\*\***Video for the staging:https://youtu.be/4007e2n1lxQ **\*\*
 
 \*\***Zhichun Zhao is credited to the video filming&editing**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
