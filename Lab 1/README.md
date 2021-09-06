@@ -2,16 +2,6 @@
 
 # Staging Interaction
 
-### Deliverables for this lab are: 
-1. Storyboard
-1. Sketches/photos of costumed device
-1. Any reflections you have on the process
-1. Video sketch of the prototyped interaction
-1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
-
-### The Report
-This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
-
 ## Lab Overview
 For this assignment, you are going to:
 
@@ -43,9 +33,9 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***The Setting is home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla when its raining.
-Everyone in the home is involved in the interction. Everyone could benefit from this device.
-When the players are picking cloths to wear, the light in the closet will flash different colors of lights to show today's weather. For example, warm yellow for sunny day, blue for rainy day, red for severe weather. And when its rainy outside, and you forget to bring unberalla when leaving, the light in the front door will falsh blue light to show you forget the unberalla.
+\*\***The Setting is home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla when its raining.<br>
+The players are everyone in the home is involved in the interction. Everyone could benefit from this device.<br>
+The activity is when the players are picking cloths to wear, the light in the closet will flash different colors of lights to show today's weather. For example, warm yellow for sunny day, blue for rainy day, red for severe weather. And when its rainy outside, and you forget to bring unberalla when leaving, the light in the front door will falsh blue light to show you forget the unberalla.<br>
 The goal for each player is to dress properly according to the werather everyday.**\*\*
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
