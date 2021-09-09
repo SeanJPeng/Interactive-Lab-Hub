@@ -112,7 +112,11 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-\*\***Summarize feedback from your partners here.**\*\*
+\*\***Sometimes it is hard to see in the closet, and colored lights make make it worse. Having regular light until the weather light was asked for would be great.<br>
+Users would confuse the red light that represents severe weather with the flashing light that notifying them about the umbrella.<br>
+If it is too bright in the room, it is somewhat difficult to see the light. Could add an audio feature along with the light that tells what the weather is for the day.<br>
+Generally people like the unberalla reminding feature.
+**\*\*
 
 ## Make it your own
 
