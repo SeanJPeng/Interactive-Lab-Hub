@@ -127,3 +127,4 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+\*\***![Story Board New](https://github.com/SeanJPeng/Interactive-Lab-Hub/blob/Fall2021/Lab%201/sotryBoard_new.jpg)**\*\*
