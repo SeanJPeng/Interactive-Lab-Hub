@@ -140,3 +140,5 @@ Below is a refined version of the story board.
 \*\***![Story Board New](https://github.com/SeanJPeng/Interactive-Lab-Hub/blob/Fall2021/Lab%201/sotryBoard_new.jpg)**\*\*
 
 ## Record
+Below is the link the to video:<br>
+https://www.youtube.com/watch?v=lopmbSGQdDo
