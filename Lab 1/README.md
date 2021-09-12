@@ -127,4 +127,14 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+
+## Part A. Plan 
+\*\***<br>
+The Setting is home, in the closet and the entry door. It happens when you are picking cloths to wear, or forget bring unberalla when its raining.<br><br>
+The players are everyone in the home is involved in the interction. Everyone could benefit from this device.<br><br>
+The activity is when the players are picking cloths to wear, the light in the closet will flash different colors of lights to show today's weather. For example, warm yellow for sunny day, blue for rainy day, red for severe weather. Just for couple seconds, the colorful light will disappear and went back to original light. And when its rainy outside, and you forget to bring unberalla when leaving, There will be a voice to remind you bring the unberlla<br><br>
+The goal for each player is to dress properly according to the werather everyday.<br>**\*\*
+
+Below is a refined version of the story board.
 \*\***![Story Board New](https://github.com/SeanJPeng/Interactive-Lab-Hub/blob/Fall2021/Lab%201/sotryBoard_new.jpg)**\*\*
