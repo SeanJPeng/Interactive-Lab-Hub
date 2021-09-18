@@ -197,6 +197,7 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ![partG](https://github.com/SeanJPeng/Interactive-Lab-Hub/blob/Fall2021/Lab%202/partG.jpg)
 
+There will be empty block followed by the strings to indicate the maximum length. Which would be 12 for the hours, 10 for the first/second digit of both minutes and seconds.
 
 # Prep for Part 2
 
