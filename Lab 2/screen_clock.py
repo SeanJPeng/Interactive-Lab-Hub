@@ -66,6 +66,37 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
 
+    # block to show the hours
+    hours = int(time.strftime("%I"))
+    hourBlock = ""
+    for _ in range(hours):
+        hourBlock += "H"
+    y = top
+    draw.text((x,y),hourBlock,font=font,fill="#FFFF00")
+    
+    #block to show the minutes
+    minutes = time.strftime("%M")
+    min1 = int(minutes[0])
+    min2 = int(minutes[1])
+    min1Block = "".join(["M" for _ in range(min1)])
+    min2Block = "".join(["M" for _ in range(min2)])
+    y += font.getsize(hourBlock)[1]
+    draw.text((x,y),min1Block,font=font,fill="#0000FF")
+    y += font.getsize(min1Block)[1]
+    draw.text((x,y),min2Block,font=font,fill="#0000FF")
+
+    # block to show the seconds
+    seconds = time.strftime("%S")
+    sec1 = int(seconds[0])
+    sec2 = int(seconds[1])
+    sec1Block = "".join(["S" for _ in range(sec1)])
+    sec2Block = "".join(["S" for _ in range(sec2)])
+    y += font.getsize(min2Block)[1]
+    draw.text((x,y),sec1Block,font=font, fill="#FF00FF")
+    y += font.getsize(sec1Block)[1]
+    draw.text((x,y),sec2Block,font=font, fill="#FF00FF")
+
+    
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
