@@ -215,4 +215,10 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+Feedback from peers:
+Simple but intuitive.
+Could add the feature to display the month and date.
+Could added a colorful if the backgroud is not totally balck.
 
+Below is the link to the video.
+https://www.youtube.com/watch?v=SupEmTH-TwQ
