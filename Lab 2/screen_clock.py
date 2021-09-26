@@ -71,6 +71,8 @@ while True:
     hourBlock = ""
     for _ in range(hours):
         hourBlock += "H"
+    for _ in range(12-hours):
+        hourBlock += "X"
     y = top
     draw.text((x,y),hourBlock,font=font,fill="#FFFF00")
     
@@ -78,8 +80,18 @@ while True:
     minutes = time.strftime("%M")
     min1 = int(minutes[0])
     min2 = int(minutes[1])
-    min1Block = "".join(["M" for _ in range(min1)])
-    min2Block = "".join(["M" for _ in range(min2)])
+    min1Block = ""
+    min2Block = ""
+    for _ in range(min1):
+        min1Block += "M"
+    for _ in range(6-min1):
+        min1Block += "X"
+    for _ in range(min2):
+        min2Block += "m"
+    for _ in range(9-min2):
+        min2Block += "X"
+    # min1Block = "".join(["M" for _ in range(min1)])
+    # min2Block = "".join(["M" for _ in range(min2)])
     y += font.getsize(hourBlock)[1]
     draw.text((x,y),min1Block,font=font,fill="#0000FF")
     y += font.getsize(min1Block)[1]
@@ -90,7 +102,7 @@ while True:
     sec1 = int(seconds[0])
     sec2 = int(seconds[1])
     sec1Block = "".join(["S" for _ in range(sec1)])
-    sec2Block = "".join(["S" for _ in range(sec2)])
+    sec2Block = "".join(["s" for _ in range(sec2)])
     y += font.getsize(min2Block)[1]
     draw.text((x,y),sec1Block,font=font, fill="#FF00FF")
     y += font.getsize(sec1Block)[1]
