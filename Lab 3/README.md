@@ -53,7 +53,7 @@ Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a
 
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
-\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
+\*\***I write my own shell file 'greeting.sh' .**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
