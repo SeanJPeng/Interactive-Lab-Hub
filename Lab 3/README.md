@@ -105,7 +105,17 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+\*\***What’s the weather today? <br>
+	Today’s weather would be … <br>
+What’s good for today’s weather? <br>
+	T-shirt, shorts …<br>
+What do I have?<br>
+	You got black shirt, regular blue jeans …<br>
+Any cloth I haven’t wear for a long time?<br>
+	Yes, the pink shirt.<br>
+Get me the cloth for sport.<br>
+	Will do.<br>
+.**\*\*
 
 ### Acting out the dialogue
 
