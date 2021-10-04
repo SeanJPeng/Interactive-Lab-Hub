@@ -53,7 +53,7 @@ Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a
 
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
-\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
+\*\***I write my own shell file 'greeting.sh' .**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
@@ -66,7 +66,7 @@ In particular, look at `test_words.py` and make sure you understand how the voca
 
 One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
 
-\*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+\*\***I write my own shell file 'askZip.sh' to record the zipcodes.**\*\*
 
 Bonus Activity:
 
@@ -101,11 +101,21 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+\*\***![Story Board](https://github.com/SeanJPeng/Interactive-Lab-Hub/blob/Fall2021/Lab%203/lab3sotryBoard.jpg)**\*\*
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+\*\***What’s the weather today? <br>
+	Today’s weather would be … <br>
+What’s good for today’s weather? <br>
+	T-shirt, shorts …<br>
+What do I have?<br>
+	You got black shirt, regular blue jeans …<br>
+Any cloth I haven’t wear for a long time?<br>
+	Yes, the pink shirt.<br>
+Get me the cloth for sport.<br>
+	Will do.<br>
+.**\*\*
 
 ### Acting out the dialogue
 
