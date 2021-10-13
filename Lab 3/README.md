@@ -146,7 +146,7 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+*Document how the system works*<br>
 If the prototype detect there is a audio input of the word weather, it will out put the current temperature( in Kelvin Unit). <br>
 *Include videos or screencaptures of both the system and the controller.*
 Link to the prototype video: <br>
@@ -158,18 +158,22 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\**It shows the temperature and works really well.<br>
+If the speaker speaks too fast, and the system did not detect the word 'weather'. It won't do anything.<br>*\*\*
+
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+\*\**The controller seems to detect the word with really good accuracy.<br>
+It would only record for a finite duration of time. I haven't hink of a way to automatically end the recording when the user is done speaking.<br>*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+\*\**For a more autonomous version of the system, it could automaticlly end the recoding and give out the answer when the user is done speaking.*\*\*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+\*\**I could record the frequent questions of the user, and when user is still thinking. The system coudl give speculative guess answers.<br>
+A camera could be added to the system. When a person is present, the system would automatically start and ask what's the user's needs.*\*\*
 
