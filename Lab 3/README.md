@@ -147,8 +147,10 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-
+If the prototype detect there is a audio input of the word weather, it will out put the current temperature( in Kelvin Unit). <br>
 *Include videos or screencaptures of both the system and the controller.*
+Link to the prototype video: <br>
+https://www.youtube.com/watch?v=JHD5wroUL98
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
