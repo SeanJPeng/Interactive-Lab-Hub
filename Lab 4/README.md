@@ -242,7 +242,7 @@ The smart blind take vocie input and open/close the blind according to the input
 ![demo-0001](https://user-images.githubusercontent.com/14202464/137831988-db9b126f-b1ad-4510-82a2-db88c648cb34.png)
 
 ### Idea 3 - Safe Keeper
-
+The Safe Keeper detects unauthorized access and activates the alarm.
 #### Product Description
 
 #### Sensors/Components Used
