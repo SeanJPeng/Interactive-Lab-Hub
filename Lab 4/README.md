@@ -220,7 +220,6 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 `distance sensor`, `capacitive touch sensor`, `rotating dial`, `microphone`, `LED light`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -235,7 +234,6 @@ The smart blind take vocie input and open/close the blind according to the input
 
 `speaker`, `servo mottor`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -249,7 +247,6 @@ The Safe Keeper detects unauthorized access and activates the alarm.
 
 `luminosity sensor`, `LED button`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -263,7 +260,6 @@ Racing simulator contains a steering wheel and two paddles. Joystick will be use
 
 `touch capacitor`, `LED button`, `joystick`, `screen`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -278,7 +274,6 @@ Racing simulator contains a steering wheel and two paddles. Joystick will be use
 
 `distance sensor`, `screen`, `LED light`, `capacitive touch sensor`
 
-#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -346,8 +341,10 @@ Think about how you want to present the information about what your sensor is se
 ![409649488158879307](https://user-images.githubusercontent.com/39228801/137839757-bd9900ed-dd02-4ba3-aa75-bb2346bf3c09.jpg)
 
 ### User Interface Design 3
+![600116618719035536](https://user-images.githubusercontent.com/39228801/137840858-3cfead5a-77f6-430a-b91c-78eea8f8b3a0.jpg)
 
 ### User Interface Design 4
+![917319675740346721](https://user-images.githubusercontent.com/39228801/137840880-2d7c99a0-63be-45c1-b7c0-82b5eec6c7bf.jpg)
 
 ### User Interface Design 5
 
