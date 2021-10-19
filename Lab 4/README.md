@@ -218,6 +218,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors Placement
 
 #### Sample Product Design
+![1634609181(1)](https://user-images.githubusercontent.com/39228801/137831803-ce839980-fc2e-4999-a479-98ea47cd8903.png)
+
 
 ### Idea 3 - Safe Keeper
 
@@ -228,6 +230,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors Placement
 
 #### Sample Product Design
+![1634609244(1)](https://user-images.githubusercontent.com/39228801/137831905-8b4b36e9-bf75-4169-8ecc-32cde4e00142.png)
+
 
 ### Idea 4 - Racing Simulator
 
@@ -238,6 +242,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors Placement
 
 #### Sample Product Design
+![1634609079(1)](https://user-images.githubusercontent.com/39228801/137831728-7637959c-bcbb-47a6-9956-1c79e2b5eb36.png)
+
 
 ### Idea 5 - Night Path
 
@@ -248,6 +254,8 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 #### Sensors Placement
 
 #### Sample Product Design
+![1634609210(1)](https://user-images.githubusercontent.com/39228801/137831856-bef840c7-db9a-43e4-9668-dda3a00ea7c4.png)
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -305,6 +313,8 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 ### User Interface Design 1
+![1634609274(1)](https://user-images.githubusercontent.com/39228801/137831970-e26913cf-6182-4f12-8aee-867c56767be7.png)
+
 
 ### User Interface Design 2
 
