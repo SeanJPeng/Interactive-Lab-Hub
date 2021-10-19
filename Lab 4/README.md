@@ -353,7 +353,7 @@ Think about how you want to present the information about what your sensor is se
 When we making sketches, we found a problem is that if the design of the prototype looks good, they might be some conflicts for the placement of the sensors. For example, we want to make the knob and button close to each other, but during prototyping, we figured the sensors don’t have enough space to fit together. We need to make modifications along the way of our prototyping process.
 ### Design Questions
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+**\*\*\*We choose design 1 as our prototype.\*\*\***
 
 ### Idea Selection
 
