@@ -340,6 +340,7 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 ### User Interface Design 1
+![idea_1_uml](https://user-images.githubusercontent.com/14202464/137798569-9c601280-c563-4ebb-aec9-830365d2a25a.png)
 
 ### User Interface Design 2
 ![409649488158879307](https://user-images.githubusercontent.com/39228801/137839757-bd9900ed-dd02-4ba3-aa75-bb2346bf3c09.jpg)
