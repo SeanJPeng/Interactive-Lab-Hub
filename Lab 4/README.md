@@ -366,6 +366,7 @@ Build a cardbord prototype of your design.
 **\*\*\*Document your rough prototype.\*\*\***
 
 ### Cardboard Prototype
+![732459795035551955](https://user-images.githubusercontent.com/39228801/137837813-ea976e34-389b-47c0-ac99-6a11dd197494.jpg)
 
 
 LAB PART 2
