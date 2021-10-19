@@ -230,7 +230,7 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 ### Idea 2 - Smart Blind
 
 #### Sensors/Components Description
-
+The smart blind take vocie input and open/close the blind according to the input.
 #### Sensors/Components Used
 
 `speaker`, `servo mottor`, `screen`
