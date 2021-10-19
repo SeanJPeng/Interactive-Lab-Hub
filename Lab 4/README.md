@@ -347,22 +347,23 @@ Think about how you want to present the information about what your sensor is se
 ![917319675740346721](https://user-images.githubusercontent.com/39228801/137840880-2d7c99a0-63be-45c1-b7c0-82b5eec6c7bf.jpg)
 
 ### User Interface Design 5
+![579476596848063676](https://user-images.githubusercontent.com/39228801/137841453-54b50077-2001-4c7c-a9a0-e44f8698f557.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
-
+When we making sketches, we found a problem is that if the design of the prototype looks good, they might be some conflicts for the placement of the sensors. For example, we want to make the knob and button close to each other, but during prototyping, we figured the sensors don’t have enough space to fit together. We need to make modifications along the way of our prototyping process.
 ### Design Questions
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 ### Idea Selection
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+**\*\*\*Since all the user interface are all physical. We choose design 1 since it has a more anique looking, and all the physical interface will make more sense.\*\*\*** 
 
 ### Design Rationale
 
 Build a cardbord prototype of your design.
 
-**\*\*\*Document your rough prototype.\*\*\***
+**\*\*\*We made a the front side of the prototype using card board, we did not start to seal the side of the box becuase during the development stage we figured we would make a lot of adjustments. Leave it a more flexiable stage would help us for the futher development. \*\*\***
 
 ### Cardboard Prototype
 ![732459795035551955](https://user-images.githubusercontent.com/39228801/137837813-ea976e34-389b-47c0-ac99-6a11dd197494.jpg)
