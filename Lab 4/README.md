@@ -342,6 +342,7 @@ Think about how you want to present the information about what your sensor is se
 ### User Interface Design 1
 
 ### User Interface Design 2
+![409649488158879307](https://user-images.githubusercontent.com/39228801/137839757-bd9900ed-dd02-4ba3-aa75-bb2346bf3c09.jpg)
 
 ### User Interface Design 3
 
