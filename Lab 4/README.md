@@ -94,6 +94,11 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
+#### Testing - Adafruit MPR121 12-Key Capacitive Touch Sensor
+
+![Adafruit MPR121 12-Key Capacitive Touch Sensor](https://user-images.githubusercontent.com/14202464/137830295-ba00b3dc-9d27-49eb-9e24-4478d5395533.jpg)
+
+
 ### Part B
 ### More sensors
 
@@ -116,6 +121,11 @@ Connect it to your pi with Qwiic connector and try running the three example scr
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
 
+#### Testing - Light_Proximity_Gesture sensor (APDS-9960)
+
+![Light_Proximity_Gesture sensor (APDS-9960)](https://user-images.githubusercontent.com/14202464/137830337-e5fdc843-eb49-4a14-8ac8-0c947d887a88.jpg)
+
+
 #### Rotary Encoder
 
 A rotary encoder is an electro-mechanical device that converts the angular position to analog or digital output signals. The [Adafruit rotary encoder](https://www.adafruit.com/product/4991#technical-details) we ordered for you came with separated breakout board and encoder itself, that is, they will need to be soldered if you have not yet done so! We will be bringing the soldering station to the lab class for you to use, also, you can go to the MakerLAB to do the soldering off-class. Here is some [guidance on soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation) from Adafruit. When you first solder, get someone who has done it before (ideally in the MakerLAB environment). It is a good idea to review this material beforehand so you know what to look at.
@@ -133,6 +143,10 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 ```
 
 You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up? 
+
+#### Testing - Adafruit I2C QT Rotary Encoder
+
+![Adafruit I2C QT Rotary Encoder](https://user-images.githubusercontent.com/14202464/137830351-161b1204-e56a-406e-8951-c9b2b7869ae9.jpg)
 
 #### Joystick
 
@@ -168,6 +182,10 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
+#### Testing - Qwiic Multi Distance Sensor (VL53L3CX)
+
+![Qwiic Multi Distance Sensor - VL53L3CX](https://user-images.githubusercontent.com/14202464/137830381-7eb0d7d5-8a4d-41d8-ab7c-a9310578d4df.jpg)
+
 ### Part C
 
 ### Lab Partners
@@ -198,11 +216,11 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 - As the countdown reaches zero, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
 - The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
 
-#### Sensors Used
+#### Sensors/Components Used
 
-`distance sensor`, `touch capacitor`, `rotating dial`, `microphone`, `LED light`
+`distance sensor`, `capacitive touch sensor`, `rotating dial`, `microphone`, `LED light`, `screen`
 
-#### Sensors Placement
+#### Sensors/Components Placement
 
 #### Sample Product Design
 
@@ -211,51 +229,60 @@ The **Smart Timer** is a product that allows you to set a countdown timer using 
 
 ### Idea 2 - Smart Blind
 
-#### Product Description
+#### Sensors/Components Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`speaker`, `servo mottor`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
-![1634609181(1)](https://user-images.githubusercontent.com/39228801/137831803-ce839980-fc2e-4999-a479-98ea47cd8903.png)
 
+![demo-0001](https://user-images.githubusercontent.com/14202464/137831988-db9b126f-b1ad-4510-82a2-db88c648cb34.png)
 
 ### Idea 3 - Safe Keeper
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`luminosity sensor`, `LED button`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
-![1634609244(1)](https://user-images.githubusercontent.com/39228801/137831905-8b4b36e9-bf75-4169-8ecc-32cde4e00142.png)
 
+![demo-0003](https://user-images.githubusercontent.com/14202464/137832053-b57da3f6-71ec-4c7e-b2ba-8848b84d261a.png)
 
 ### Idea 4 - Racing Simulator
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`touch capacitor`, `LED button`, `joystick`, `screen`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
-![1634609079(1)](https://user-images.githubusercontent.com/39228801/137831728-7637959c-bcbb-47a6-9956-1c79e2b5eb36.png)
+
+![demo-0000](https://user-images.githubusercontent.com/14202464/137831978-dee1ab44-80ca-49e2-a282-6e09c76c4012.png)
 
 
 ### Idea 5 - Night Path
 
 #### Product Description
 
-#### Sensors Used
+#### Sensors/Components Used
 
-#### Sensors Placement
+`distance sensor`, `screen`, `LED light`, `capacitive touch sensor`
+
+#### Sensors/Components Placement
 
 #### Sample Product Design
-![1634609210(1)](https://user-images.githubusercontent.com/39228801/137831856-bef840c7-db9a-43e4-9668-dda3a00ea7c4.png)
 
+![demo-0002](https://user-images.githubusercontent.com/14202464/137832014-5bfb859a-b867-494f-974a-9f5792e0d925.png)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -313,8 +340,6 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 ### User Interface Design 1
-![1634609274(1)](https://user-images.githubusercontent.com/39228801/137831970-e26913cf-6182-4f12-8aee-867c56767be7.png)
-
 
 ### User Interface Design 2
 
