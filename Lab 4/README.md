@@ -103,14 +103,14 @@ We here want you to get to know this awesome sensor [Adafruit APDS-9960](https:/
 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-03.jpg" width=200>
 
-Connect it to your pi with Qwiic connector and try running the 3 example scripts individually to see what the sensor is capable of doing!
+Connect it to your pi with Qwiic connector and try running the three example scripts individually to see what the sensor is capable of doing!
 
 ```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python light_test.py
-...
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python proximity_test.py
 ...
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python gesture_test.py
+...
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python color_test.py
 ...
 ```
 
@@ -169,15 +169,99 @@ Connect it to your pi with Qwiic connector and try running the example script to
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
 ### Part C
+
+### Lab Partners
+For this Lab, we are a team of 3 people.
+- Xingyu Tao (xt75)
+- Wenlan Wei (ww367) 
+- Jiacheng Peng (jp948)
 ### Physical considerations for sensing
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+### Idea Generation
+We chose to take a more creative approach with our idea generation. Instead of first choosing sensors, we decided to first brainstorm **tasks and functions** of our product.
+
+We came up with 5 very different product ideas, and then thought about how we would use the sensors available to us to accomplish these ideas.
+
+Because we are a group of 3, we decided to incorporate multiple sensors into each of our ideas in order to provide multiple ways of interacting with each device.
+
+### Idea 1 - Smart Timer
+
+#### Product Description
+
+The **Smart Timer** is a product that allows you to set a countdown timer using several interactive methods. 
+- First, you can *wake up* the device via waving over the device *or* through touching the physical touch sensor interface. 
+- Then, you would be able to set the timer and activate it through a physical dial and touch sensor interface. 
+- As the countdown reaches zero, the Smart Timer will announce it by both emitting a sound, and using a LED light. 
+- The User can then dismiss the timer by waving over the device *or* through touching the physical touch sensor interface.
+
+#### Sensors Used
+
+`distance sensor`, `touch capacitor`, `rotating dial`, `microphone`, `LED light`
+
+#### Sensors Placement
+
+#### Sample Product Design
+
+![idea_1_uml](https://user-images.githubusercontent.com/14202464/137798569-9c601280-c563-4ebb-aec9-830365d2a25a.png)
+
+
+### Idea 2 - Smart Blind
+
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
+### Idea 3 - Safe Keeper
+
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
+### Idea 4 - Racing Simulator
+
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
+### Idea 5 - Night Path
+
+#### Product Description
+
+#### Sensors Used
+
+#### Sensors Placement
+
+#### Sample Product Design
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+### Design Questions
+
+While we had a lot of discussions about the *stylistic* design of our products, one immediate implementation question we had was - *can we actually wire the sensors and the Raspberry Pi to fit our design?*
+
+In fact, we attempted to make an example cardboard interface for our first idea, the **Smart Timer**, and ran into placement problems when trying place the Raspberry Pi with the Rotary Dial, with the two components knocking into each other. We had to flip the Raspberry Pi in order to make it work. This is despite having designed space for it in our sketches. We didn't find out about the placement problem until we tried to physically place the components together.
+
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+### Idea Selection
 
 
 ### Part D
@@ -220,15 +304,33 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+### User Interface Design 1
+
+### User Interface Design 2
+
+### User Interface Design 3
+
+### User Interface Design 4
+
+### User Interface Design 5
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+### Design Questions
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+### Idea Selection
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+### Design Rationale
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+### Cardboard Prototype
 
 
 LAB PART 2
@@ -273,4 +375,3 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
-
