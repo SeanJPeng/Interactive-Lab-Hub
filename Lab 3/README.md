@@ -155,6 +155,7 @@ https://www.youtube.com/watch?v=JHD5wroUL98
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 <br>
+<br>
 I've invite two people to test my prototype.<br>
 The first person expects more than just weather, she thinks it should be a advanced voice helper that tells news and playing music.<br>
 The second person like the weather function, but not like the cloth recommendation. He thinks he can handle the task of choosing the right cloth as long as he knows the weather.<br>
