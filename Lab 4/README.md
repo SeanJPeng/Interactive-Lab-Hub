@@ -463,13 +463,14 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 <br>
 Link to the demo video: https://www.youtube.com/watch?v=Q8wy3w8GtRc <br>
 This is the look of our smart timer:<br>
+
 ![837406413927457101](https://user-images.githubusercontent.com/39228801/138542858-ff3e2a91-2462-40a7-914f-68e2e387e163.jpg)
-<br>
+
 ![27599063804055796](https://user-images.githubusercontent.com/39228801/138542837-bea313ca-516c-405f-8ad0-71feeb768a66.jpg)
-<br>
+
 This is the interior struction of the prototype:<br>
 ![703329045259335972](https://user-images.githubusercontent.com/39228801/138542852-841f69bc-2073-45f5-bea0-195815678fbd.jpg)
-<br>
+
 
 The main senor we applied is the encoder. We use it as the knob for the smart timer. Then we used the 4 pin cable to connected some other senors for other fancy features.<br>
 We use the Capacitive Sensing for the start and pause button.<br>
