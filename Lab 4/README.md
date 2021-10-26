@@ -479,3 +479,7 @@ We use the speaker for reminding the state of the timer.<br>
 Below is the picture of how we connect all the senors in a flat view.<br>
 ![420787005824392073](https://user-images.githubusercontent.com/39228801/138542940-905361e4-7149-432d-add4-1373066560f7.jpg)
 
+We've invited two people to test our prototype.<br>
+Both of them found the waving gesture to wake up the timer is cool.<br>
+The first person really like the antique looking of the timer, he would love to have one for keep track of cooking time.<br>
+The second person think adding a feature to use voice to set timer would be really cool.
