@@ -99,16 +99,20 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.<br>
-Contours Detection<br>
+**Contours Detection**<br>
+potential design example: Object classifing system.<br>
 ![1635535976(1)](https://user-images.githubusercontent.com/39228801/139492152-4d5278de-926d-409c-acd2-1822b039cc04.png)
 <br>
-Face Detection <br>
+**Face Detection** <br>
+potential design example: Automatic Check-In system.<br>
 ![1635536393(1)](https://user-images.githubusercontent.com/39228801/139492746-6dd93420-310f-400f-b274-87df81d79947.png)
 <br>
 **Flow detection**<br>
+potential design example: Pet motion tracker. <br>
 ![1635536589](https://user-images.githubusercontent.com/39228801/139493082-192d1222-2fff-4144-b56b-3755a042b15d.png)
 <br>
 **Object Detection**<br>
+potential design example: unattended object detection. <br>
 ![1635536715(1)](https://user-images.githubusercontent.com/39228801/139493312-c7a11d7c-ec0c-4ce2-85f1-4dae1754c17c.png)
 
 <br>
