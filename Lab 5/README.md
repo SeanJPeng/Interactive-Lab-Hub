@@ -274,13 +274,13 @@ For example:
 4. Based on the behavior you have seen, what other scenarios could cause problems?<br>
     When the user is wearing a mask, it might be hard to detect the user.<br>
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
+1. Are they aware of the uncertainties in the system?<br>
     It is not intuitive that control the height by using hand gesture. <br>
-3. How bad would they be impacted by a miss classification?
+3. How bad would they be impacted by a miss classification?<br>
     It will not be really bad. It is just a table, there won't be a serious consequence for a miss classification.<br>
-4. How could change your interactive system to address this?
+4. How could change your interactive system to address this?<br>
     We could display a user guid in the monitor of the table when a user approaches.<br>
-5. Are there optimizations you can try to do on your sense-making algorithm.
+5. Are there optimizations you can try to do on your sense-making algorithm.<br>
     We could take more pictures of hand gestures, and catetorized them into a single category. That would increase the rate for detecting the gesture if the gesture is not perfect.<br>
 ### Part D
 ### Characterize your own Observant system
