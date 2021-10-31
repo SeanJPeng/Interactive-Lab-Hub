@@ -265,17 +265,23 @@ Try out different interaction outputs and inputs.
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
-
+1. When does it what it is supposed to do?<br>
+    The main function of the device is to control the height of the table using hand gesture. You can raise the height of table by waving hand up, decrease the height by waving down. It could also remember the differernt user of the table. It could record the height for differernt user by detecting their faces. There is also a monitor to monitor the status of the table. The monitor could also display other functions like the weather and to-do list.<br>
+2. When does it fail?<br>
+    When your hand moving too fast or wearing a glove, there might be a chance that the seneor can not detect the gesture of the hand.<br>
+3. When it fails, why does it fail?<br>
+    It fails because the hand is moving too fast. The camera's refreshing rate might not be fast enough to capture a quick movement of the hand.<br>
+4. Based on the behavior you have seen, what other scenarios could cause problems?<br>
+    When the user is wearing a mask, it might be hard to detect the user.<br>
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
-
+    It is not intuitive that control the height by using hand gesture. <br>
+3. How bad would they be impacted by a miss classification?
+    It will not be really bad. It is just a table, there won't be a serious consequence for a miss classification.<br>
+4. How could change your interactive system to address this?
+    We could display a user guid in the monitor of the table when a user approaches.<br>
+5. Are there optimizations you can try to do on your sense-making algorithm.
+    We could take more pictures of hand gestures, and catetorized them into a single category. That would increase the rate for detecting the gesture if the gesture is not perfect.<br>
 ### Part D
 ### Characterize your own Observant system
 
