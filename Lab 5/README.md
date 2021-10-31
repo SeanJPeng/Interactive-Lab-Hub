@@ -253,16 +253,18 @@ Using the accelerometer, try the following:
 
 ### Part B
 ### Construct a simple interaction.
+
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
 This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***\\
 
-One of the interesting class of objects we played around with is hand gesture detection. We think it would be cool to interact with an intelligent desk and screen combination using hand gestures.
+One of the interesting class of objects we played around with is hand gesture detection using Hand Pose and object detection using Teaching Machine. We brainstormed an idea to build a **Cooking Instructor** using object detection and hand gesture detection. This system would be hooked up to a screen that can take you step by step through assembling a recipe and making a meal.
 
-1. **The Desk**: We will connect a webcam to the Pi, and the Pi to a desk which is controlled by a motor. The user can controll the desk height by using hand gestures. We can also add a face recognition feature using Teaching Manchine to recognize different people, and load up their personalized desk height settings.
-1. **The Screen**: We will connect a webcam to the Pi, and the Pi to a medium-size display screen. The screen displays an application that can show the user some stats about the desk (current height, current profile, settings, etc). The screen will give the user feedback on their current actions. For example when the user raises the desk, the screen will display the desk height becoming larger. The application can include expanded functionalities, such as weather report, or to-do list, which the user can access using hand gestures and voice control.
+1. **Select Recipe**: The user can browse and select a recipe to make, the screen then shows what ingredients the user needs to gather.
+2. **Preparing the Ingredients**: Once the user has gathered all the ingredients, they can proceed to the next step. The **cooking instructor** will walk the user through the steps of preparing the ingredients, by detecting the ingredients present on the cutting board and instructing the user to proceed to cut them into pieces. The device will detect what ingredients are on the board, and if the ingredient processing is done and proceed to the next step.
+3. **Cooking**: For the cooking portion, the **cooking instructor** will provide automatic timers for the user to use. They can also flip through the recipe steps using hand gestures to review or preview steps.
 
 **[insert story board]**
 ### Part C
@@ -271,22 +273,22 @@ One of the interesting class of objects we played around with is hand gesture de
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?<br>
-    The main function of the device is to control the height of the table using hand gesture. You can raise the height of table by waving hand up, decrease the height by waving down. It could also remember the differernt user of the table. It could record the height for differernt user by detecting their faces. There is also a monitor to monitor the status of the table. The monitor could also display other functions like the weather and to-do list.<br>
+    When you are cooking. It is hard to use your phone to looking at the recepie with your wet hands. This system would use camera to detect the food indegredient on the table, determine what step you are in the recipe and display it on the monitor. You can also change the step you are in by using the hand gestures. (Moving forward or backword for the recepie displayed on the monitor)<br>
 2. When does it fail?<br>
-    When your hand moving too fast or wearing a glove, there might be a chance that the seneor can not detect the gesture of the hand.<br>
+    The object on the table might not be correct detected. And that leads to a fail of moving forward in the recepie.<br>
 3. When it fails, why does it fail?<br>
-    It fails because the hand is moving too fast. The camera's refreshing rate might not be fast enough to capture a quick movement of the hand.<br>
+    The food indegredient might be cutted in different shapes. And that leads to a confusion of determine what kind of indregident it is.<br>
 4. Based on the behavior you have seen, what other scenarios could cause problems?<br>
-    When the user is wearing a mask, it might be hard to detect the user.<br>
+    The system may not detect the hand gesture correctly. <br>
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?<br>
     It is not intuitive that control the height by using hand gesture. <br>
 3. How bad would they be impacted by a miss classification?<br>
-    It will not be really bad. It is just a table, there won't be a serious consequence for a miss classification.<br>
+    It will not be really bad. If the system do not work properly, the user would jsut dry their hands and check the recepie manually.<br>
 4. How could change your interactive system to address this?<br>
-    We could display a user guid in the monitor of the table when a user approaches.<br>
+    We could display a user guid in the monitor when a user approaches.<br>
 5. Are there optimizations you can try to do on your sense-making algorithm.<br>
-    We could take more pictures of hand gestures, and catetorized them into a single category. That would increase the rate for detecting the gesture if the gesture is not perfect.<br>
+    We could take more pictures of hand gestures, and catetorized them into a single category. That would increase the rate for detecting the gesture if the gesture is not perfect. <br>
 ### Part D
 ### Characterize your own Observant system
 
