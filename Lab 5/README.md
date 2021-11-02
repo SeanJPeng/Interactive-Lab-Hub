@@ -270,7 +270,9 @@ One of the interesting class of objects we played around with is hand gesture de
 2. **Preparing the Ingredients**: Once the user has gathered all the ingredients, they can proceed to the next step. The **cooking instructor** will walk the user through the steps of preparing the ingredients, by detecting the ingredients present on the cutting board and instructing the user to proceed to cut them into pieces. The device will detect what ingredients are on the board, and if the ingredient processing is done and proceed to the next step.
 3. **Cooking**: For the cooking portion, the **cooking instructor** will provide automatic timers for the user to use. They can also flip through the recipe steps using hand gestures to review or preview steps.
 
-**[insert story board]**
+
+![idd5](https://user-images.githubusercontent.com/14202464/139872477-d62fbbe0-42f1-48c4-ae5d-f61da37f598c.jpg)
+
 ### Part C
 ### Test the interaction prototype
 
