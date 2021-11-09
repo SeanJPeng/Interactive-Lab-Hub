@@ -388,4 +388,4 @@ This video shows how the **Recipe Helper** should work in a real life environmen
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
+**\*\*\*Link to the video: https://youtu.be/wX-EdGsX8nM.\*\*\***
