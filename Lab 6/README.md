@@ -188,7 +188,8 @@ Input: When the doorbell is being hit, it will get the input from the button tha
 Output: The out put will be the sound generated from the speaker at the bathroom, and the flashing light being generated at the study room. <br>
 Computation: The pi connect to the doorbell is the sender. When it the doorbell being hit, it will send a message in the channel to all the receivers. The pi at the bathroom and the study room are the receivers. They will play sound/ flash lights when they receive the message from the doorbell. The receivers also have a button. The people in the room could hit the button, and the receivers will send a message to the doorbell, the doorbell would generate a voice to indicate the guest that the host has being notified. <br>
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+**\*\*\*3. Build a working prototype of the system.\*\*\*** <br>
+The user interface and user interaction is intuitive and straight forward. All the interaction are based on a very common interaction ---- hit the doorbell. The guest are just doing what they normally do. And when the host confirmed their presence, the doorbell will play a voice notify the guest. Since the voice is a speech, there will no obstacles for the guest to understand at all. For the host side, since he/she is the one who uses the system, they are expected to understand the whole system. <br>
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
