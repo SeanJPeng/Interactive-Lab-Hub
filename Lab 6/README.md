@@ -180,7 +180,8 @@ We set up a script that would receive all the colors output from different users
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**\*\*\*1. Explain your design\*\*\*** 
+Our design is called the “Omnipresent Doorbell”. The basic idea is that when the door bell being hit, people in the house that is not close to the door might not hear the sound. The device in other rooms could receive the message sent by the door bell and act simultaneously. For example, when the doorbell rings, the speaker in the bathroom will generate a sound to notify the people there are someone coming. And in the study room, because people in the study room are studying or having a meeting, which they do not like to be disrupted by a sound. The light in the study would room flash as the doorbell being hit. This is a more gentle approach to notify the user that someone is coming. The “Omnipresent Doorbell” will solve the problem missing the sound of doorbell and make sure you got notified when someone hit the doorbell. <br>
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
