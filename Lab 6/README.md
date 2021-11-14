@@ -183,7 +183,10 @@ Find at least one class (more are okay) partner, and design a distributed applic
 **\*\*\*1. Explain your design\*\*\*** <br>
 Our design is called the “Omnipresent Doorbell”. The basic idea is that when the door bell being hit, people in the house that is not close to the door might not hear the sound. The device in other rooms could receive the message sent by the door bell and act simultaneously. For example, when the doorbell rings, the speaker in the bathroom will generate a sound to notify the people there are someone coming. And in the study room, because people in the study room are studying or having a meeting, which they do not like to be disrupted by a sound. The light in the study would room flash as the doorbell being hit. This is a more gentle approach to notify the user that someone is coming. The “Omnipresent Doorbell” will solve the problem missing the sound of doorbell and make sure you got notified when someone hit the doorbell. <br>
 
-**\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**\*\*\*2. Diagram the architecture of the system.\*\*\*** <br>
+Input: When the doorbell is being hit, it will get the input from the button that being hit. <br>
+Output: The out put will be the sound generated from the speaker at the bathroom, and the flashing light being generated at the study room. <br>
+Computation: The pi connect to the doorbell is the sender. When it the doorbell being hit, it will send a message in the channel to all the receivers. The pi at the bathroom and the study room are the receivers. They will play sound/ flash lights when they receive the message from the doorbell. The receivers also have a button. The people in the room could hit the button, and the receivers will send a message to the doorbell, the doorbell would generate a voice to indicate the guest that the host has being notified. <br>
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
