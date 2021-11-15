@@ -195,5 +195,10 @@ The user interface and user interaction is intuitive and straight forward. All t
 
 [![1636935813](https://user-images.githubusercontent.com/39228801/141705107-ef2e7b49-6bd8-4541-9ec5-4102d4ca4f25.png)](https://www.youtube.com/watch?v=wy4fX0s_vVo)
 
+### User Testing <br>
+We’ve asked three people to test our product, below are the feedbacks they give us.<br>
+1.	Could build a talking channel let the guest and host talk directly through the doorbell.<br>
+2.	Let the light in the study room changed color from green to red if the guest pushed the doorbell consistently to indicate they have emergencies.<br>
+3.	Can apply the speech to text, to let the guest talk to the doorbell and convert it into message to be sent to the host.<br>
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
