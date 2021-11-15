@@ -193,4 +193,7 @@ The user interface and user interaction is intuitive and straight forward. All t
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+[![1636935813](https://user-images.githubusercontent.com/39228801/141705107-ef2e7b49-6bd8-4541-9ec5-4102d4ca4f25.png)](https://www.youtube.com/watch?v=wy4fX0s_vVo)
+
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
