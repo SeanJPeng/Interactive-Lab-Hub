@@ -25,4 +25,5 @@ battery box <br>
 motor controller <br>
 
 ## Design
-Here 
+Below is a picture of the general idea. <br>
+<img width="884" alt="Screen Shot 2021-12-07 at 12 21 17 AM" src="https://user-images.githubusercontent.com/39228801/144971227-61becb18-6140-469d-b94d-5ad33fcb45e4.png">
