@@ -32,7 +32,7 @@ Below is a picture of the general idea. <br>
 <img width="884" alt="Screen Shot 2021-12-07 at 12 21 17 AM" src="https://user-images.githubusercontent.com/39228801/144971227-61becb18-6140-469d-b94d-5ad33fcb45e4.png">
 
 This is a picture of the circuit of inside the prototype.<br>
-![image](https://user-images.githubusercontent.com/39228801/145515759-ae47967a-8dcf-4f15-980e-bde8c356853a.png)
+![image](https://user-images.githubusercontent.com/39228801/145515759-ae47967a-8dcf-4f15-980e-bde8c356853a.png =100x20)
 
 ## Demo
 Below is a link to a demo video of the working prototype. <br>
