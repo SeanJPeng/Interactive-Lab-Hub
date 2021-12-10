@@ -37,7 +37,7 @@ Below is a picture of the general idea. <br>
 
 ## Design Process
 
-When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump.
+When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
 
 ## Project Plan
 Below is our original plan for the project
@@ -79,3 +79,12 @@ refillable.<br>
 If the pump does not work as we expected, we will use a motor to tilt the bottle of the
 alcohol to perform the same function. We will use a smaller bottle or even a cup for
 tilting since our motor only has 9g of power.
+
+## Reflections on process
+
+For the previous projects, we've never encountered problems with power supply. But for project that requires a usage of some power consuming parts (pump in our case), we should really take that seriouly in the design process. <br>
+
+## Group work distribution 
+Wenlan Wei is the main contributor, in charge of the implementation of the code for pump control and circuit building.<br>
+Xingyu Tao implemented the code for the UI interface, and contributed for prototype building. Also did the 3D modeling, but not used in project.<br>
+Jiacheng Peng is in charge of the documentation, the prototype building and testing.<br>
