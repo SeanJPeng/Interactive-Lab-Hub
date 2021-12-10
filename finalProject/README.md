@@ -20,7 +20,7 @@ First, place your empty cup under the tap in fornt of the machine. There will be
 ## Parts needed
 Raspberry pi 4 <br>
 12V pumps <br> 
-thing plastic pipes <br>
+thing silicon tubing <br>
 touch screen for Raspberry pi <br>
 motors <br>
 bread board <br>
