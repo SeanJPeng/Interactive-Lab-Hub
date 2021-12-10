@@ -65,3 +65,12 @@ code for touch screen<br>
 Dec 11 Add the touch screen to our prototype<br>
 Dec 12 Wrap things up and finish all the documentation<br>
 Dec 13 Final deliverable<br>
+
+### Risks / Contingencies
+● The flux for the pump might be too small. We will use multiple pumps if
+necessary.<br>
+● We might not be able to build a working touch screen. We will use physical
+buttons like capacity sensors instead.<br>
+● We need more thought on how to refill the drinks being dispensed once they are
+empty. We will need to design this part carefully if we want the device to be
+refillable.<br>
