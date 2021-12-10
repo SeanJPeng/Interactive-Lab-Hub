@@ -74,3 +74,8 @@ buttons like capacity sensors instead.<br>
 ● We need more thought on how to refill the drinks being dispensed once they are
 empty. We will need to design this part carefully if we want the device to be
 refillable.<br>
+
+### Fall Back plan
+If the pump does not work as we expected, we will use a motor to tilt the bottle of the
+alcohol to perform the same function. We will use a smaller bottle or even a cup for
+tilting since our motor only has 9g of power.
