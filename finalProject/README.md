@@ -86,6 +86,8 @@ tilting since our motor only has 9g of power.
 ## Reflections on process
 
 For the previous projects, we've never encountered problems with power supply. But for project that requires a usage of some power consuming parts (pump in our case), we should really take that seriouly in the design process. <br>
+We were thinking of using the led light strip for decreating, but that would actually make it ugly. So, think over about the parts your really need before buying it.<br>
+
 
 ## User testing
 
