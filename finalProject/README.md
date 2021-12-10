@@ -84,6 +84,16 @@ tilting since our motor only has 9g of power.
 
 For the previous projects, we've never encountered problems with power supply. But for project that requires a usage of some power consuming parts (pump in our case), we should really take that seriouly in the design process. <br>
 
+## User testing
+
+We've asked many people to test our project. Below are some useful comments.<br>
+<br>
+How do you clean the the machine to make sure its clean and drinkable? (Our solution is to replace the tube reguarly)<br>
+Can add a stop button to stop the dispensing process immdeially. So when user select the wrong drink they can fix it quickly.<br>
+Instead of dispensing the fixed amount, can add the feature to let user decided how much drink they would have so there will be no waste.<br>
+
+
+
 ## Group work distribution 
 Wenlan Wei is the main contributor, in charge of the implementation of the code for pump control and circuit building.<br>
 Xingyu Tao implemented the code for the UI interface, and contributed for prototype building. Also did the 3D modeling, but not used in project.<br>
