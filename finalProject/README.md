@@ -38,3 +38,30 @@ Below is a picture of the general idea. <br>
 ## Design Process
 
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump.
+
+## Project Plan
+
+### Big idea
+Introducing Drinkser, a smart Cocktail dispenser. This interactive device will allow users
+to use a touchscreen to dispense different kinds of mixed drinks. The device will have a
+box-like body with an inset concave area for drink dispensing. The main touchscreen on
+the front side of the device will let users choose between drinks and also prompt the
+user to place their cup in the dispensing area once they have made their choice.
+Once the cup is placed in the dispensing area a distance sensing chip at the bottom will
+detect the cup and start dispensing. Since the pump works at a constant rate (about
+500ml per 6 min), we can control the dispensed amount simply by controlling the time of
+the dispensing. Depending on the drink the user chose, different silicone tubing pumps
+will activate and allow the dispensed liquids to mix in the cup. Once the dispensing is
+complete, the LED strip on the top of the dispensing area and the touchscreen will
+prompt the user to remove their cup.
+
+### Timeline
+Nov 23 Buy the additional parts once our idea gets approved
+Nov 28 Finish implementing the code for the pump and start working on the
+physical
+Dec 2 Functional check off
+Dec 5 Finish building the physical part of the prototype, start implementing the
+code for touch screen
+Dec 11 Add the touch screen to our prototype
+Dec 12 Wrap things up and finish all the documentation
+Dec 13 Final deliverable
