@@ -27,6 +27,47 @@ bread board <br>
 battery box <br>
 motor controller <br>
 
+
+## Project Plan
+Below is our original plan for the project
+### Big idea
+Introducing Drinkser, a smart Cocktail dispenser. This interactive device will allow users
+to use a touchscreen to dispense different kinds of mixed drinks. The device will have a
+box-like body with an inset concave area for drink dispensing. The main touchscreen on
+the front side of the device will let users choose between drinks and also prompt the
+user to place their cup in the dispensing area once they have made their choice.
+Once the cup is placed in the dispensing area a distance sensing chip at the bottom will
+detect the cup and start dispensing. Since the pump works at a constant rate (about
+500ml per 6 min), we can control the dispensed amount simply by controlling the time of
+the dispensing. Depending on the drink the user chose, different silicone tubing pumps
+will activate and allow the dispensed liquids to mix in the cup. Once the dispensing is
+complete, the LED strip on the top of the dispensing area and the touchscreen will
+prompt the user to remove their cup.
+
+### Timeline
+Nov 23 Buy the additional parts once our idea gets approved <br>
+Nov 28 Finish implementing the code for the pump and start working on the
+physical<br>
+Dec 2 Functional check off<br>
+Dec 5 Finish building the physical part of the prototype, start implementing the<br>
+code for touch screen<br>
+Dec 11 Add the touch screen to our prototype<br>
+Dec 12 Wrap things up and finish all the documentation<br>
+Dec 13 Final deliverable<br>
+
+### Risks / Contingencies
+● The flux for the pump might be too small. We will use multiple pumps if
+necessary.<br>
+● We might not be able to build a working touch screen. We will use physical
+buttons like capacity sensors instead.<br>
+● We need more thought on how to refill the drinks being dispensed once they are
+empty. We will need to design this part carefully if we want the device to be
+refillable.<br>
+
+### Fall Back plan
+If the pump does not work as we expected, we will use a motor to tilt the bottle of the
+alcohol to perform the same function. We will use a smaller bottle or even a cup for
+tilting since our motor only has 9g of power.
 ## Design
 Below is a picture of the general idea. <br>
 <img width="884" alt="Screen Shot 2021-12-07 at 12 21 17 AM" src="https://user-images.githubusercontent.com/39228801/144971227-61becb18-6140-469d-b94d-5ad33fcb45e4.png">
@@ -178,47 +219,6 @@ chmod -R 755 LCD-show
 cd LCD-show/
 sudo ./XXX-show 90
 ```
-
-## Project Plan
-Below is our original plan for the project
-### Big idea
-Introducing Drinkser, a smart Cocktail dispenser. This interactive device will allow users
-to use a touchscreen to dispense different kinds of mixed drinks. The device will have a
-box-like body with an inset concave area for drink dispensing. The main touchscreen on
-the front side of the device will let users choose between drinks and also prompt the
-user to place their cup in the dispensing area once they have made their choice.
-Once the cup is placed in the dispensing area a distance sensing chip at the bottom will
-detect the cup and start dispensing. Since the pump works at a constant rate (about
-500ml per 6 min), we can control the dispensed amount simply by controlling the time of
-the dispensing. Depending on the drink the user chose, different silicone tubing pumps
-will activate and allow the dispensed liquids to mix in the cup. Once the dispensing is
-complete, the LED strip on the top of the dispensing area and the touchscreen will
-prompt the user to remove their cup.
-
-### Timeline
-Nov 23 Buy the additional parts once our idea gets approved <br>
-Nov 28 Finish implementing the code for the pump and start working on the
-physical<br>
-Dec 2 Functional check off<br>
-Dec 5 Finish building the physical part of the prototype, start implementing the<br>
-code for touch screen<br>
-Dec 11 Add the touch screen to our prototype<br>
-Dec 12 Wrap things up and finish all the documentation<br>
-Dec 13 Final deliverable<br>
-
-### Risks / Contingencies
-● The flux for the pump might be too small. We will use multiple pumps if
-necessary.<br>
-● We might not be able to build a working touch screen. We will use physical
-buttons like capacity sensors instead.<br>
-● We need more thought on how to refill the drinks being dispensed once they are
-empty. We will need to design this part carefully if we want the device to be
-refillable.<br>
-
-### Fall Back plan
-If the pump does not work as we expected, we will use a motor to tilt the bottle of the
-alcohol to perform the same function. We will use a smaller bottle or even a cup for
-tilting since our motor only has 9g of power.
 
 ## Reflections on process
 
