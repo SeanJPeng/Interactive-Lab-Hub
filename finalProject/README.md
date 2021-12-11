@@ -91,7 +91,8 @@ As we use a 16 channels motor controller to finish this task, we use three of th
 
 ## GUI
 
-![Untitled](IDD%20final%2006c8a057b6b04836ba3149bfac4865c5/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/39228801/145690088-640b1714-04ed-416d-9259-af2e148249d5.png)
+
 
 In the GUI, we have multiple buttons here. With the guizero, we are able to customize these buttons easily.
 
