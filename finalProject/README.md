@@ -57,6 +57,19 @@ We've also identified some futher features that could be added to the product.<b
 
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
 
+## Pump Control
+
+As our prime task is to control a 12V bump, we first need to build a switch which could be controlled by the raspberry pi. 
+
+The raspberry Pi 4 has GPIO which could only provide **3.3v** output and **16 mA** which is not enough for our need. The second thought would be using a transistor to control our motor 
+![Untitled 1](https://user-images.githubusercontent.com/39228801/145690170-d2c82033-3170-427f-87ae-33d302140340.png)
+![Untitled 2](https://user-images.githubusercontent.com/39228801/145690174-3532fb55-19a8-47f5-9ba3-b3e3dfa00862.png)
+
+However, the transistor did not work under this setup in the situation. We soon went on with a more controllable solution
+
+![Untitled 3](https://user-images.githubusercontent.com/39228801/145690181-89208e7e-76f8-4c1f-abb2-2bc06664b9f7.png)
+
+
 ## Motor Control
 
 As we described before, we encountered some difficulties in using transistors to control motors. Instead, we come up with the idea that using physical switches to control these motors and we used a motor controller to control pumps. 
