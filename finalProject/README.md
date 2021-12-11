@@ -31,9 +31,6 @@ motor controller <br>
 Below is a picture of the general idea. <br>
 <img width="884" alt="Screen Shot 2021-12-07 at 12 21 17 AM" src="https://user-images.githubusercontent.com/39228801/144971227-61becb18-6140-469d-b94d-5ad33fcb45e4.png">
 
-This is a picture of the circuit of inside the prototype.<br>
-<img src="https://user-images.githubusercontent.com/39228801/145515759-ae47967a-8dcf-4f15-980e-bde8c356853a.png" width="700">
-
 ## Demo
 Below is a link to a demo video of the working prototype. <br>
 [<img width="1138" alt="Screen Shot 2021-12-07 at 10 35 28 AM" src="https://user-images.githubusercontent.com/39228801/145059752-b644615d-5fc9-470c-9ce9-645721a4bf6c.png">](https://www.youtube.com/watch?v=HgxsOgSMFxE)
@@ -59,6 +56,20 @@ We've also identified some futher features that could be added to the product.<b
 3. Adding a camera and suing computer vision to detect if the cup is full. If the cup is full and can not take more drinks, the dispenser would automatically stop dispencing to prevent the spill.
 
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
+
+## Wiring
+![3d_printing](https://user-images.githubusercontent.com/14202464/145690801-21210ecf-cd0e-4859-8a46-73a895f59f05.png)
+
+After experimenting with the transistor setup and not getting a lot of success with it, we spent some time rethinking how we could control the pumps via the raspberry using parts we already have access to. 
+
+We knew that the micro servo motors we have could provide accurate but small range movement with its arms, so we decided to test the approach of connecting the wiring of the pumps by physically moving the connection with the help of a servo motor, basically using the servo motor as a controllable relay switch. 
+
+Our small scale test with one motor and pump actually worked out quite well, so we settled on this approach and built our final wiring design.
+
+Below is a picture of the acual wireing of our product. 
+
+![3d_printing](https://user-images.githubusercontent.com/14202464/145690855-4bbb4827-2e37-4a5c-a734-6a6e81011fc4.jpg)
+
 
 ## Pump Control
 
