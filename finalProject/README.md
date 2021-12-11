@@ -67,8 +67,7 @@ The raspberry Pi 4 has GPIO which could only provide **3.3v** output and **16 mA
 
 However, the transistor did not work under this setup in the situation. We soon went on with a more controllable solution
 
-![Untitled 3](https://user-images.githubusercontent.com/39228801/145690181-89208e7e-76f8-4c1f-abb2-2bc06664b9f7.png)
-
+<img src="https://user-images.githubusercontent.com/39228801/145690181-89208e7e-76f8-4c1f-abb2-2bc06664b9f7.png" width="500">
 
 ## Motor Control
 
