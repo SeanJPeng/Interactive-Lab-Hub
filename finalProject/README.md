@@ -50,6 +50,11 @@ The basic idea is the same -- Using pumps to draw the drink from the bottle and 
 3. We could easily adjust the selections of the drink by just reprogramming the system. For example, adding holiday special drinks for certain holidays.
 4. The selections range could be easily expaned by adding more pumps in the product.
 
+We've also identified some futher features that could be added to the product.<br>
+1. Make user interface that allow the user to adujst the scale of drink which allows them to make their own personal drinks. They could even name the drink if they would like to.
+2. Using a light sensor to detect if the cup is being placed on the correct place. If the bottle is not being placed, they dispenser would not start despencing to prevent a mis touch.
+3. Adding a camera and suing computer vision to detect if the cup is full. If the cup is full and can not take more drinks, the dispenser would automatically stop dispencing to prevent the spill.
+
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
 
 ## Project Plan
