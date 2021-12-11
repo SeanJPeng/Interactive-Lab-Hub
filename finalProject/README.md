@@ -93,7 +93,9 @@ We used a breadboard to wire our 3 pumps in parallel to a 12V battery pack. The 
 
 As we described before, we encountered some difficulties in using transistors to control motors. Instead, we come up with the idea that using physical switches to control these motors and we used a motor controller to control pumps. 
 
-{motor switch image here}
+<img src="https://user-images.githubusercontent.com/14202464/145690930-fef09438-ddb9-476e-b42c-a1745b0a3a0a.jpg" width="400">
+
+This is a closeup of the servo motor setup we used to control the pump. To limit the movement of the motor, we drilled small holes onto the backboard and used thin wires to secure the servo motors. When the raspberry pi sends a signal to the servo controller, the servo connected will move by a small amount (between 40 to 60 degrees depending on our tuning) to connect the pump wiring and activate it.
 
 ```python
 import time
