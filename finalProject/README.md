@@ -43,6 +43,7 @@ Below is a link to a demo video of the working prototype. <br>
 We've compared our design with the mature product in the market. Through our prototype may look a little unpolished, but we've got our advantages.<br>
 Below is a electric cocktail dispenser from the market.<br>
 ![image](https://user-images.githubusercontent.com/39228801/145688724-1db57e4a-a896-4137-9f3d-e8462d0b6588.png)
+<img src="https://user-images.githubusercontent.com/39228801/145688724-1db57e4a-a896-4137-9f3d-e8462d0b6588.png" width="100"
 
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
 
