@@ -33,6 +33,7 @@ Below is a picture of the general idea. <br>
 
 This is a picture of the circuit of inside the prototype.<br>
 ![image](https://user-images.githubusercontent.com/39228801/145515759-ae47967a-8dcf-4f15-980e-bde8c356853a.png)
+<img src="https://user-images.githubusercontent.com/39228801/145515759-ae47967a-8dcf-4f15-980e-bde8c356853a.png" width="700">
 
 ## Demo
 Below is a link to a demo video of the working prototype. <br>
