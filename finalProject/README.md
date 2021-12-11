@@ -159,6 +159,13 @@ def drink12():
 		t1.start()
 		t2.start()
 ```
+## 3-D Printing vs. Lego Prototype
+
+| **3-D Printing Design** | **Lego Prototype** |
+| --- | --- |
+| <img src="https://user-images.githubusercontent.com/14202464/145690961-791d9b4a-84c7-42af-a009-64eeffcd4cdf.PNG" width="400"> | <img src="https://user-images.githubusercontent.com/14202464/145690951-34d8164d-0055-4c9c-a78d-940dba04f2f2.jpg" width="400"> |
+
+An interesting tradeoff we made was to replace our designed 3-D printed dispenser parts with lego prototypes since the 3-D printers were fully occupied. The lego parts provided a similar design flexibility while being easily assembled and saved us a lot of time.
 
 ## Touch Screen Drive
 
