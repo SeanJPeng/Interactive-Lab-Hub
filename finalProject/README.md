@@ -57,6 +57,86 @@ We've also identified some futher features that could be added to the product.<b
 
 When we first start thinking about this idea, we were thinking about using motors to control the lid of a bottle for dispensing the drinks. But we found this is extremely hard to do. Instead we brought some pumps from Amazon, so that the pump could directly draw the liquid from the bottle. But there are no drivers or phiscal switch for the pump. The pump begins to work once its being connected to the current. We've tried using transisters to control the current. But the transister would cause a decrease of voltage and would not be able to actually starts the pump. Our solution is to tie the circuit on the tip of the motors. And we can contorl the motor for a indirect control of the pump. We use a battery pack for the power source of the pumps. Therefore the pumps would intiate sequentially instead of simultaneously. This could be avoid by using individual battery packs for each pump. And for the tap, we were thinking of using the 3D printing, but the queue for the 3D printer is so long at the end of the semester. So we use lego instead.
 
+## Motor Control
+
+As we described before, we encountered some difficulties in using transistors to control motors. Instead, we come up with the idea that using physical switches to control these motors and we used a motor controller to control pumps. 
+
+{motor switch image here}
+
+```python
+import time
+from adafruit_servokit import ServoKit
+import sys
+
+para = sys.argv
+
+para[1]=int(para[1])
+para[2]=int(para[2])
+
+mot_dic = {1:15,2:7,3:3}
+kit = ServoKit(channels=16)
+servo = kit.servo[mot_dic[para[1]]]
+if para[1]==1:
+    start = 60
+    end = 30
+elif para[1]==2:
+    start = 60
+    end = 20
+elif para[1] ==3:
+    start =60 
+    end = 15
+```
+
+As we use a 16 channels motor controller to finish this task, we use three of them (3,7,15) and we initialize these motors with a fixed angle. Once the motor being activated they would adjust themselves to the start angle. After receiving specific command, it will start the motor. 
+
+## GUI
+
+![Untitled](IDD%20final%2006c8a057b6b04836ba3149bfac4865c5/Untitled.png)
+
+In the GUI, we have multiple buttons here. With the guizero, we are able to customize these buttons easily.
+
+```python
+drink1Button = PushButton(app, image="coke3.jpg", width=40, height=60, command=drink1, text="Coke", grid=[0, 3])
+```
+
+These buttons has an argument `command` which enables us to activate an function.
+
+```python
+def drink12():
+    os.system('python3 drink.py 1 4')
+    os.system('python3 drink.py 2 4')
+```
+
+Or we could use multiprocessing to speed up the whole progress.
+
+```python
+from threading import Thread
+
+def drink1():
+		os.system('python3 drink.py 1 4')
+
+def drink2():
+		os.system('python3 drink.py 2 4')
+
+def drink12():
+		t1 = Thread(target = drink1)
+		t2 = Thread(target = drink2)
+		t1.start()
+		t2.start()
+```
+
+## Touch Screen Drive
+
+We bought a screen from Elecrow. it is able to connect directly to the raspberry pi. Drive could be downloaded here. [https://github.com/goodtft/LCD-show](https://github.com/goodtft/LCD-show)
+
+```python
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+sudo ./XXX-show 90
+```
+
 ## Project Plan
 Below is our original plan for the project
 ### Big idea
