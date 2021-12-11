@@ -83,6 +83,12 @@ However, the transistor did not work under this setup in the situation. We soon 
 
 <img src="https://user-images.githubusercontent.com/39228801/145690181-89208e7e-76f8-4c1f-abb2-2bc06664b9f7.png" width="300">
 
+
+
+We used a breadboard to wire our 3 pumps in parallel to a 12V battery pack. The pumps would draw liquids and dispense them easily using lengths of silicone pipes. There is a small height difference between the liquid container and the dispensing head, but after testing out the setup we found out that this did not affect the pumping rate.
+
+<img src="https://user-images.githubusercontent.com/14202464/145690871-1eda0a2e-07bc-428e-bc37-e36305ee69c5.jpg" width="400">
+
 ## Motor Control
 
 As we described before, we encountered some difficulties in using transistors to control motors. Instead, we come up with the idea that using physical switches to control these motors and we used a motor controller to control pumps. 
