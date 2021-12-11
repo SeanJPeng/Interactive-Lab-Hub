@@ -189,16 +189,16 @@ Or we could use multiprocessing to speed up the whole progress.
 from threading import Thread
 
 def drink1():
-		os.system('python3 drink.py 1 4')
+    os.system('python3 drink.py 1 4')
 
 def drink2():
-		os.system('python3 drink.py 2 4')
+    os.system('python3 drink.py 2 4')
 
 def drink12():
-		t1 = Thread(target = drink1)
-		t2 = Thread(target = drink2)
-		t1.start()
-		t2.start()
+    t1 = Thread(target = drink1)
+    t2 = Thread(target = drink2)
+    t1.start()
+    t2.start()
 ```
 ## 3-D Printing vs. Lego Prototype
 
