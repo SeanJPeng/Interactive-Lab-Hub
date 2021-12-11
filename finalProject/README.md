@@ -38,6 +38,9 @@ This is a picture of the circuit of inside the prototype.<br>
 Below is a link to a demo video of the working prototype. <br>
 [<img width="1138" alt="Screen Shot 2021-12-07 at 10 35 28 AM" src="https://user-images.githubusercontent.com/39228801/145059752-b644615d-5fc9-470c-9ce9-645721a4bf6c.png">](https://www.youtube.com/watch?v=HgxsOgSMFxE)
 
+Take a look of the inside! Below is a video for how the products operates without the packaging.
+[<img width="1162" alt="Screen Shot 2021-12-11 at 3 16 37 PM" src="https://user-images.githubusercontent.com/39228801/145690428-b295f16f-fe48-45e2-8d03-4c1dd6583111.png">](https://www.youtube.com/watch?v=8xsTz74DtQU&ab_channel=JiachengPeng)
+
 ## Design Process
 
 We've compared our design with the mature product in the market. Through our prototype may look a little unpolished, but we've got our advantages.<br>
