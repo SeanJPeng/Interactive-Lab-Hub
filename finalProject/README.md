@@ -66,7 +66,7 @@ We knew that the micro servo motors we have could provide accurate but small ran
 
 Our small scale test with one motor and pump actually worked out quite well, so we settled on this approach and built our final wiring design.
 
-Below is a picture of the acual wireing of our product. 
+Below is a picture of the actual wireing of our product. 
 
 ![3d_printing](https://user-images.githubusercontent.com/14202464/145690855-4bbb4827-2e37-4a5c-a734-6a6e81011fc4.jpg)
 
